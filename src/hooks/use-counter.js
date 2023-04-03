@@ -10,6 +10,8 @@ const useCounter = () => { // MUST put use in front
 
     return () => clearInterval(interval);
   }, []);
+
+  return counter;
 };
 
 export default useCounter;
